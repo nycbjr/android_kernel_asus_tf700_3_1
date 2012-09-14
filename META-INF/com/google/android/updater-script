@@ -1,0 +1,1 @@
+assert(package_extract_file("blob", "/tmp/blob"), write_raw_image("/tmp/blob", "staging"),delete("/tmp/blob"));
