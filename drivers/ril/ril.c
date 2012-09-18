@@ -9,14 +9,7 @@
 #include <linux/uaccess.h>
 #include <linux/workqueue.h>
 //#include <../../arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
-<<<<<<< HEAD
-//#include </droid/repos/live_repos/nycbjr/tf700t_kernel31/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
-#include </droid/repos/baked/kernel/asus/tf700t/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
-=======
-#include </home/brichter/repos/baked/kernel/asus/tf700t/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
-//#include </droid/repos/baked/kernel/asus/tf700t/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
->>>>>>> b1f9840e44bda7974e7a01df5602f09709912247
-
+#include </droid/repos/live_repos/nycbjr/tf700t_kernel31/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
 #include "pm-irq.h"
 #include "ril.h"
 #include "ril_proximity.h"
