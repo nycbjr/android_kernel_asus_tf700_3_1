@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/hwmon/built-in.o drivers/hwmon/hwmon.o drivers/hwmon/ina219.o drivers/hwmon/tegra-tsensor.o drivers/hwmon/al3010.o 

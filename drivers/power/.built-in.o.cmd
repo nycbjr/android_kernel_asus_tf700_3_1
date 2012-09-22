@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/smb349-charger.o drivers/power/gpio-charger.o drivers/power/pad_battery.o 

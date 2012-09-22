@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/atmel_maxtouch.o drivers/input/touchscreen/mxt_config.o drivers/input/touchscreen/ektf3k.o drivers/input/touchscreen/sis_i2c.o 

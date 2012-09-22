@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/video/backlight/built-in.o drivers/video/backlight/lcd.o drivers/video/backlight/backlight.o drivers/video/backlight/generic_bl.o drivers/video/backlight/pwm_bl.o drivers/video/backlight/tegra_pwm_bl.o 

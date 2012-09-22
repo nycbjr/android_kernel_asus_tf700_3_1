@@ -1,0 +1,2 @@
+kernel/drivers/rtc/rtc-max77663.ko
+kernel/drivers/rtc/rtc-tps6591x.ko

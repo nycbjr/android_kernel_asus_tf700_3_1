@@ -27,10 +27,13 @@ ifdef S_VERSION_BUILD
 EXTRA_CFLAGS += -DS_VERSION_BUILD=$(S_VERSION_BUILD)
 endif
 
+plus_sec := $(call as-instr,.arch_extension sec,+sec)
+
 tf_driver-objs += tf_util.o
 tf_driver-objs += tf_conn.o
 tf_driver-objs += tf_device.o
 tf_driver-objs += tf_comm.o
 tf_driver-objs += tf_comm_tz.o
 
+FLAGS_piggy.$(suffix_y).o += -Wa,-march=armv7-a$(plus_sec)
 obj-$(CONFIG_TRUSTED_FOUNDATIONS) += tf_driver.o

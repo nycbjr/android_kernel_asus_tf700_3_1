@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/mfd/built-in.o drivers/mfd/mfd-core.o drivers/mfd/tps6591x.o drivers/mfd/max77663-core.o drivers/mfd/ricoh583.o 

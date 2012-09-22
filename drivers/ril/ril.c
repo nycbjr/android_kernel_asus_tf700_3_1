@@ -9,7 +9,7 @@
 #include <linux/uaccess.h>
 #include <linux/workqueue.h>
 //#include <../../arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
-#include </droid/repos/live_repos/nycbjr/tf700t_kernel31/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
+#include </home/brichter/repos/live_repos/bjr/tf700t/kernel/asus/tf700t/arch/arm/mach-tegra/include/mach/board-cardhu-misc.h>
 #include "pm-irq.h"
 #include "ril.h"
 #include "ril_proximity.h"

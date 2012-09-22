@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/raw_ip_net.ko := /opt/toolchains/android-toolchain-eabi/bin/ld -EL -r  -T /home/brichter/repos/live_repos/bjr/tf700t/kernel/asus/tf700t/scripts/module-common.lds --build-id  -o drivers/net/usb/raw_ip_net.ko drivers/net/usb/raw_ip_net.o drivers/net/usb/raw_ip_net.mod.o
