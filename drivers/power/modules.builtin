@@ -1,4 +1,0 @@
-kernel/drivers/power/power_supply.ko
-kernel/drivers/power/smb349-charger.ko
-kernel/drivers/power/gpio-charger.ko
-kernel/drivers/power/pad_battery.ko

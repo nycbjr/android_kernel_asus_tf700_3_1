@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/input/keyboard/built-in.o drivers/input/keyboard/gpio_keys.o drivers/input/keyboard/tegra-kbc.o 

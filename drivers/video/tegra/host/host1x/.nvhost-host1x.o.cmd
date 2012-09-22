@@ -1,1 +1,0 @@
-cmd_drivers/video/tegra/host/host1x/nvhost-host1x.o := /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/video/tegra/host/host1x/nvhost-host1x.o drivers/video/tegra/host/host1x/host1x.o 

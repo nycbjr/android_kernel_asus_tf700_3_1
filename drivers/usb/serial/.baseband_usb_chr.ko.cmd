@@ -1,1 +1,0 @@
-cmd_drivers/usb/serial/baseband_usb_chr.ko := /opt/toolchains/android-toolchain-eabi/bin/ld -EL -r  -T /home/brichter/repos/live_repos/bjr/tf700t/kernel/asus/tf700t/scripts/module-common.lds --build-id  -o drivers/usb/serial/baseband_usb_chr.ko drivers/usb/serial/baseband_usb_chr.o drivers/usb/serial/baseband_usb_chr.mod.o

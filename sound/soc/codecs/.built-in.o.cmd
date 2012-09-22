@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o sound/soc/codecs/built-in.o sound/soc/codecs/snd-soc-rt5631.o sound/soc/codecs/snd-soc-spdif.o sound/soc/codecs/snd-soc-wm8903.o sound/soc/codecs/snd-soc-rt5642.o 

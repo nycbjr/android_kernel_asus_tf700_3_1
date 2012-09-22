@@ -1,1 +1,0 @@
-cmd_drivers/misc/tegra-baseband/built-in.o :=  /opt/toolchains/android-toolchain-eabi/bin/ld -EL    -r -o drivers/misc/tegra-baseband/built-in.o drivers/misc/tegra-baseband/bb-power.o drivers/misc/tegra-baseband/bb-m7400.o 
